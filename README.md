@@ -6,3 +6,9 @@ PHP
 MySQL
 Bootstrap
 DatePicker
+
+Halaman Admin
+Username : admin Password : admin
+
+Halaman Pelanggan
+Username : user Password : user
