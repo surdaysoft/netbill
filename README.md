@@ -7,8 +7,8 @@ MySQL
 Bootstrap
 DatePicker
 
-Halaman Admin
+Halaman Admin<br/>
 Username : admin Password : admin
 
-Halaman Pelanggan
+Halaman Pelanggan<br/>
 Username : user Password : user
