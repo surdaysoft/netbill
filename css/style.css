@@ -1,0 +1,72 @@
+body{
+
+  	background: url(../img/tiny_grid.png);
+}
+#wadah{
+	width: 85%;
+	margin: 80px auto;
+	border: 1px solid silver;
+	/* border-radius: 10px; /* Untuk membuat tiap sudut sisi menjadi bulat */
+	box-shadow: 0 0 10px #000;
+	background-color: #fff;
+}
+#kepala{
+	font-size: 20px;
+	padding: 10px;
+	border-bottom: 20px solid #336666;
+
+}
+#kepala img{
+	
+	background-repeat: no-repeat;
+}
+
+#daftar{
+	background-color: #2c3e50;
+
+}
+#daftar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#daftar ul li.utama{
+	display: inline-table;
+}
+#daftar ul li:hover{
+	background-color: #149c82;
+}
+#daftar ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 40px;
+	padding: 0 10px;
+	color: #fff;
+}
+.utama ul{
+	display: none;
+	position: absolute;
+	z-index: 2;
+}
+.utama:hover ul{
+	display: block;
+}
+.utama ul li{
+	display: block;
+	background-color: #2c3e50;
+	width: 140px;
+}
+
+#isi{
+	min-height: 400px;
+	padding: 20px;
+	
+}
+
+#ekor{
+	text-align: center;
+	padding: 20px;
+	background-color: silver;
+	/*border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;*/ /* untuk membuat sudut kanan dan kiri bawah menjadi bulat */
+}
